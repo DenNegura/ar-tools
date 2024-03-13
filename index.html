@@ -18,12 +18,27 @@
         </script>
 	</head>
 	<body>
-		<div id='model_loader' class='model-loader'>
-			<button id='model_load_btn' class='model-load-btn'>Загрузить объект</button>
+		<div class="container">
+			<div id='model_loader' class='model-loader'>
+				<button id='model_load_btn' class='model-load-btn'>Загрузить объект</button>
+			</div>
+			<div id='model_info' class='model-info card hide'>
+				<table>
+					<tr>
+						<td>Имя:</td>
+						<td id='model_name'>
+							<span id='model_name'>test value</span>
+						</td>
+					</tr>
+					<tr>
+						<td>Размер:</td>
+						<td id='model_size'>
+							<span id='model_size'>test value</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<script type="module" src="./script.js"></script>
 		</div>
-		<div id='model_info' class='model-info'>
-			
-		</div>
-		<script type="module" src="./script.js"></script>
 	</body>
 </html>

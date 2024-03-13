@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    margin: 0;
     background-color: #1E1E1E;
     font-family: 'Montserrat', sans-serif;
     height: 100%;
@@ -11,6 +10,34 @@ body {
 
 button {
     font-family: 'Montserrat', sans-serif;
+}
+
+p, td {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+span {
+    color: #2196F3;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    padding: 20px;  
+    height: inherit;  
+    box-sizing: border-box;
 }
 
 .model-loader {
@@ -38,4 +65,12 @@ button {
     color: #8BC34A;
     border-color: #8BC34A;
     box-shadow: 0px 0px 10px rgba(76, 175, 80, 0.7); /* Увеличиваем тень при hover */
+}
+
+.card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid #4CAF50;
+    box-shadow: 0px 0px 5px rgba(76, 175, 80, 0.5);
 }
